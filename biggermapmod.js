@@ -20,7 +20,7 @@ function biggerMapMod(api){
 	
 	// Set Resource counts. Take normal values and multiply by resource count multiplier
 	api.registries.mapLayout.findById("tutorial").__proto__.getResourceCounts = function(){return {
-		crystal: 12 * resourceCountMult,
+		crystal: 40 * resourceCountMult,
 		tree: 19 * resourceCountMult,
     rock: 9 * resourceCountMult,
     ironore: 7 * resourceCountMult,
@@ -29,7 +29,7 @@ function biggerMapMod(api){
   }};
 
 	api.registries.mapLayout.findById("desert").__proto__.getResourceCounts = function(){return {
-		crystal: 12 * resourceCountMult,
+		crystal: 40 * resourceCountMult,
 		tree: 19 * resourceCountMult,
     rock: 9 * resourceCountMult,
     ironore: 7 * resourceCountMult,
